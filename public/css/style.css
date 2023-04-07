@@ -1,0 +1,14 @@
+#video-grid{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video{
+    transform: scaleX(-1);
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
